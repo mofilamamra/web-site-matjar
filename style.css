@@ -1,0 +1,104 @@
+            body{
+                margin: 0;
+                font-family: 'Questrial', sans-serif;
+
+            }
+            header{
+                height: 80px;
+                border-bottom: 1px dotted #ccc;
+            }
+            header h1{
+                text-align: center;
+                font-family: 'Domine', serif;
+                font-size: 24px;
+                letter-spacing: 6px;
+                line-height: 80px;
+                margin: 0;
+
+            }
+            header h1 a{
+                color: #222;
+                text-decoration: none;
+            }
+            .navbar{
+                list-style-type: none;
+                margin: 0;
+                background-color: #999;
+                text-align: center;
+
+
+            }
+            .navbar li{
+                display: inline-block;
+            }
+            .navbar a{
+                display: block;
+                text-decoration: none;
+                margin: 0 20px;
+                font-size: 18px;
+                line-height: 50px;
+                color: #fff;
+                transition-duration: .4s;
+            }
+            .navbar a:hover{
+                padding: 10px 20px;
+                background-color: peru;
+            }
+            main {
+                max-width: 960px;
+                margin: 90px auto;
+                text-align: center;
+            }
+            main h2{
+                font-size: 30px;
+                font-weight: normal;
+                margin: 0;
+            }
+            main p{
+                color: #999;
+                font-size: 18px;
+            }    
+            main div {
+                margin:60px 0 60px 0;
+             
+                
+            }  
+            main img{
+                margin: 10px;
+                width: 290px;
+                height: 335px;
+                 transition-duration:  .3s;
+            }
+            main img:hover{
+                padding: 20px;
+                box-sizing: border-box;
+                background-color: #ddd;
+            }
+            main a{
+                
+                width: 160px;
+                height: 45px;
+                display: block;
+                line-height: 45px;
+                margin-left: auto;
+                margin-right: auto; 
+                text-decoration: none;
+                font-size: 18px;
+                border: 1px solid #CCC;    
+                color: #666; 
+                transition-duration: .4s; 
+                }
+                main a:hover{
+                    background-color: #222;
+                    color:#fff;
+                    border-color: #222;
+                }
+            footer{
+                width: 100%;
+                height: 50px;
+                background-color: #222;
+                color: #999;
+                font-size: 15px;
+                line-height: 50px;
+                text-align: center;
+            }
